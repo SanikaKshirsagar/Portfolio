@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanika.com</title>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!---<link rel="stylesheet" href="style.css">--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*---------------------CSS var---------------------------*/
+:root {
+    --navbar-height: 59px;
+}
+
+/*--------------------------navigation bar--------------------------*/
+#navbar {
+    display: flex;
+    align-items: center;
+    top: 0px;
+
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 55%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+
+}
+
+/*--------------------logo------------------------------*/
+#logo {
+    margin: 25px 30px;
+}
+
+#logo h2{
+    font-size: 1.8rem;
+    margin-top: -5px;
+    color: rgb(5, 5, 122);
+}
+
+
+/*--------------------------navbar list styleing--------------------*/
+#navbar {
+    position: absolute;
+    top: 0px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    color: white;
+    list-style: none;
+    font-size: 1.1rem;
+
+}
+
+#navbar ul li a {
+    color: black;
+    display: block;
+    padding: 1px;
+    margin: 16px;
+    float: right;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+
+}
+
+#navbar ul li a:hover {
+   /* background-color: white;*/
+    color: white;
+    background: rgb(13, 13, 116);
+    border-radius: 5px;
+    padding: 4px 6px;
+    
+}
+
+
+/*--------------------Home section----------------------------*/
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 660px;
+    padding: 3px 180px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home img {
+    margin: -7rem 4rem;
+margin-top: -324px;
+margin-left: 560px;
+height: 26rem;
+border-radius: 249px;
+width: 28rem;
+padding: 0px;
+padding-top: 2px;
+}
+
+#home::before {
+    content: "";
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+
+}
+
+#home h1 {
+    color: black;
+text-align: center;
+font-family: 'Rubik', sans-serif;
+margin-bottom: 235px;
+margin-left: -573px;
+font-size: 2.7rem;
+padding-bottom: 179px;
+
+}
+
+#home p strong{
+      color:rgb(13, 13, 116);
+      font-size: 1.7rem;
+      margin-left: -28px;
+      padding-bottom: 2px;
+}
+
+#home p {
+    color: black;
+text-align: center;
+font-size: 1.2rem;
+font-family: 'Rubik', sans-serif;
+margin-left: -651px;
+padding-bottom: 22px;
+margin-top: -420px;
+}
+
+.buttonn{
+    width: 106px;
+height: 37px;
+margin: 5px;
+margin-top: 42px;
+margin-left: -895px;
+color: white;
+border: 1px solid rgb(13, 13, 116);
+border-radius: 5px;
+background: rgb(13, 13, 116);
+font-size: 1rem;
+font-family: 'Rubik', sans-serif;
+font-weight: 700;
+}
+
+.buttonn:hover{
+    background-color: rgb(6, 86, 206);
+    border: 1px solid rgb(6, 86, 206) ;
+    color: white;
+}
+
+h4{
+    font-size: 1.1rem;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;;
+    color:rgb(14, 14, 105) ;
+    margin-top: 43px;
+    margin-left: -951px;
+    margin-bottom: -37px;
+}
+h3{
+  font-size: 1.2rem;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+  margin-top: -20px;
+  margin-left: -902px;
+  margin-bottom: -37px;
+}
+
+
+
+/* ---------------------------------------  About me section------------------------------------ */
+.about {
+    display: flex;
+    background: white;
+}
+
+.about img {
+    margin: 3rem 7rem;
+height: 24rem;
+border-radius: 0px;
+width: 25rem;
+padding: 0px
+
+}
+
+
+main .para p {
+    margin-left: 816px;
+margin-top: -214px;
+font-family: 'Rubik', sans-serif;
+font-size: 1.3rem;
+display: flex;
+align-items: center;
+width: 52px;
+margin-bottom: 121px;
+color: black;
+}
+
+.aboutt{
+    font-size: 2.3rem;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color:black ;
+    margin-top: -86px;
+}
+.buttoon{
+    width: 131px;
+height: 37px;
+margin: 5px;
+  margin-top: 333px;
+margin-left: -646px;
+color: white;
+border: 1px solid rgb(13, 13, 116);
+border-radius: 5px;
+background: rgb(13, 13, 116);
+font-size: 1rem;
+font-family: 'Rubik', sans-serif;
+font-weight: 700;
+}
+
+.buttoon:hover{
+    background-color: rgb(6, 86, 206);
+    border: 1px solid rgb(6, 86, 206) ;
+    color: white;
+}
+
+/* ------------------------services section------------- */
+
+.container {
+
+    display: flex;
+    margin: 0rem 3rem;
+
+
+}
+
+.cards {
+    background-color: white;
+width: 350px;
+height: 339px;
+margin: 38px;
+text-align: center;
+border-radius: 5px;
+box-shadow: 2px 2px 6px 2px rgb(192, 188, 188);
+}
+
+
+.cards:hover {
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.7s ease;
+    border: none;
+}
+
+.cards img {
+
+    display: block;
+height: 180px;
+width: 198px;
+margin: 17px 77px;
+margin-top: 0px;
+
+
+}
+
+.service_para{
+    margin-top: 47px;
+color: rgb(88, 85, 85);
+font-size: 1.2rem;
+font-family: 'Rubik', sans-serif;
+width: 338px;
+}
+
+h1 {
+    font-size: 2.3rem;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color:black ;
+    margin-top: 43px;
+
+}
+
+h2 {
+
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    color:rgb(14, 14, 105);
+    padding: 6px;
+    margin-top: -34px;
+}
+
+.container div p {
+    margin: 3px 10px;
+    color: rgb(70, 67, 67);
+    font-size: 1.3rem;
+}
+
+/*--------------------------------skills section----------------------------*/
+.cardss{
+    background-color: white;
+width: 686px;
+height: 475px;
+margin: 38px;
+text-align: center;
+border-radius: 5px;
+margin-top: 77px;
+
+}
+
+.skills_para{
+    margin-top: 47px;
+color: rgb(88, 85, 85);
+font-size: 1.2rem;
+font-family: 'Rubik', sans-serif;
+width: 511px
+}
+
+.skills_heading{
+    font-size: 2rem;
+  font-family: 'Rubik', sans-serif;
+  color: rgb(14, 14, 105);
+  padding: 6px;
+  margin-top: 17px;
+}
+
+.skillls{
+    margin-top: 47px;
+color: rgb(88, 85, 85);
+font-size: 1.2rem;
+font-family: 'Rubik', sans-serif;
+width: 148px;
+padding: 6px;
+
+}
+hr{
+    width: 604px;
+    color: rgb(61, 60, 60);
+}
+
+.h-secondary center{
+    text-decoration: none;
+}
+
+
+p {
+    margin-top: 47px;
+color: rgb(88, 85, 85);
+font-size: 1.2rem;
+font-family: 'Rubik', sans-serif;
+width: 648px;
+}
+
+h3{
+    margin-top: -21px;
+color: rgb(88, 85, 85);
+font-size: 1.2rem;
+font-family: 'Rubik', sans-serif;
+width: 648px;
+}
+/* --------------------------------   styling of form----------------------------------------------- */
+form {
+            background: url(https://loveswah.com/wp-content/uploads/fresh-raspberry-cupcakes8.jpg) no-repeat center center/cover;
+
+            width: 100%;
+
+        }
+.contact_heading{
+    font-size: 2.3rem;
+padding: 0px;
+text-align: center;
+font-family: 'Rubik', sans-serif;
+color: black;
+margin-top: 396px;
+margin-left: -1461px;
+}
+
+.inputBox{
+    display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: -791px;
+margin-right: 50px;
+margin-top: 487px;
+}
+
+input,
+        textarea {
+            padding: 10px;
+            margin: 16px 0px;
+            margin-right: 50px;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 3px;
+            width: 270px;
+
+        }
+        .text {
+            font-size: 1.2rem;
+            font-family: 'Nunito', sans-serif;
+            padding: 10px;
+        }
+
+        .message{
+            height: 110px;
+        }
+        .name{
+            margin-left: 33px;
+        }
+
+        .btn{
+    width: 106px;
+height: 37px;
+margin: 5px;
+margin-top: 6px;
+margin-left: -416px;
+color: white;
+border: 1px solid rgb(13, 13, 116);
+border-radius: 5px;
+background: rgb(13, 13, 116);
+font-size: 1rem;
+font-family: 'Rubik', sans-serif;
+font-weight: 700;
+}
+
+.btn:hover{
+    background-color: rgb(6, 86, 206);
+    border: 1px solid rgb(6, 86, 206) ;
+    color: white;
+}  
+img{
+    height: 190px;
+  width: 506px;
+  margin-left: -1294px;
+  margin-top: 524px;
+}
+
+
+/*---------------------------- utility class----------------------------------*/
+.h-primary {
+    font-size: 2.3rem;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color:rgb(14, 14, 105) ;
+    margin-top: 33px;
+    
+}
+
+.h-secondary {
+    font-size: 1.5rem;
+    margin-bottom: -8px;
+    text-align: right;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    top: 35%;
+    padding-right: 62px;
+
+}
+ </style>
+</head>
+
+<body>
+    <!-- ----------------------------NAVBAR AND LOGO SECTION---------------------------- -->
+    <nav id="navbar">
+        <div id="logo">
+            <h2>Portfolio</h2>    
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#about us">About</a></li>
+            <li class="item"><a href="#Services">Services</a></li>
+            <li class="item"><a href="#skills">Skills</a></li>
+            <li class="item"><a href="#contactform">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- ----------------------------HOME SECTION---------------------------- -->
+    <section id="home">
+
+        <h4>Hello,</h4>
+        <h1 class="h-primary">I'm Sanika Kshirsagar</h1>
+        <p class="place"><strong>Full Stack Web Developer</strong></p>
+        <h3>From Pune</h3>
+        <button class="buttonn">Hire Me</button> 
+        <img src="images/San2.jpg">  
+    </section>
+
+    <!-- ----------------------------ABOUT ME SECTION---------------------------- -->
+    <div class="aboutus" id="about us">
+
+        <div class="headings">
+            <h1 class="aboutt">About Me</h1>
+        </div>
+        <main class="about">
+
+
+            <img src='images/san.jpg'>
+            <p class="para"><strong>Web Development is My Passion</strong><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti ad, iste officiis mollitia vel vero maxime impedit distinctio minus laudantium alias iusto. Alias, nam pariatur? Molestias ea suscipit vel, ratione dignissimos officia fuga odit ut ipsa, necessitatibus corrupti eveniet eum? Nobis eos ipsam maiores minima numquam sapiente, ab dolor ea omnis pariatur voluptate fugit tempora blanditiis debitis provident modi molestiae.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptas tenetur porro aliquam ullam, accusantium iusto unde. Nam sed incidunt accusantium, tempore ratione ducimus delectus, exercitationem corporis voluptas quasi dolorem animi repellat? Nihil quis, officiis exercitationem accusantium voluptatum ratione libero!
+            </p>
+            <button class="buttoon">Download CV</button>
+
+        </main>
+    </div>
+
+    <!-- ----------------------   SERVICES SECTION------------------------ -->
+    <div class="headings" id="Services">
+        <h1>Services</h1>
+    </div>
+    <section class="container">
+        <div class="cards">
+            <div class="image"><img
+                    src="https://img.myloview.com/posters/front-end-isolated-icon-simple-element-illustration-from-technology-concept-icons-front-end-editable-logo-sign-symbol-design-on-white-background-can-be-use-for-web-and-mobile-400-159883340.jpg">
+            </div>
+            <h2>Frontend Development</h2>
+            <p class="service_para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, odit!</p>
+        </div>
+
+        <div class="cards">
+            <div class="image"><img
+                    src="https://thumbs.dreamstime.com/b/back-end-icon-trendy-flat-vector-white-backgro-background-technology-collection-illustration-can-be-use-web-mobile-130325461.jpg"
+                    alt=""></div>
+            <h2>Backend Development</h2>
+            <p class="service_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, iure?</p>
+        </div>
+
+        <div class="cards">
+            <div class="image"><img
+                    src="https://as2.ftcdn.net/v2/jpg/02/55/54/29/1000_F_255542993_Q9akVtTaVh3isAzaXGpQzL80EO3VS0xi.jpg"
+                    alt=""></div>
+            <h2>Digital Marketing</h2>
+            <p class="service_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, earum!</p>
+        </div>
+
+
+    </section>
+    <!-- ----------------------------SKILLS SECTION---------------------------- -->
+    <div class="headings" id="skills">
+        <h1 >My Skills</h1>
+    </div>
+    <section class="container">
+        <div class="cardss">
+            <h2 class="skills_heading">Skills Reflect Our Knowledge</h2>
+            <p class="skills_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolorem, explicabo commodi aspernatur itaque laboriosam quisquam accusamus quibusdam numquam suscipit debitis? Saepe officia asperiores veniam similique doloremque blanditiis temporibus numquam vitae! Dolores facere porro quidem placeat rem, quo illo excepturi, dolorem, ab ipsam ratione vitae veritatis laboriosam sit eius reiciendis.</p>
+        </div>
+
+        <div class="cardss">
+            <h2></h2>
+            <p class="skillls">HTML: 80%<br><hr size="4" color="red"> </p>
+            <p class="skillls">CSS: 85%<br><hr size="4" color="red"></p>
+            <p class="skillls">Javascript: 75%<br><hr size="4" color="red"></p>
+            <p class="skillls">NodeJS: 65%<br><hr size="4" color="red"></p>
+            <p class="skillls">MongoDB: 80%<br><hr size="4" color="red"></p>
+            <p class="skillls">Bootstrap: 90%<br><hr size="4" color="red"></p>
+        </div>
+
+    <!-- -------------------CONTACT FORM----------------------------------------- -->
+    <div class="contact_form" id="contactform">
+        <h1 class="contact_heading">Contact Me</h1>
+    </div>
+    <div class="img">
+    <img src="https://www.maroc.campusfrance.org/sites/pays/files/maroc/styles/mobile_visuel_principal_page/public/medias/images/2021-05/Contact%202.png?itok=UY-H-hxN">
+</div>
+    <section class="contact" id="contact">
+        <form action="">
+            <div class="inputBox">
+                <div class="input">
+                    <span class="text" id="name">Full  Name:</span>
+                    <input type="text" class="name" placeholder="Enter your name">
+                </div>
+                <div class="input">
+                    <span class="text" >Email Address:</span>
+                    <input type="email" placeholder="Enter your Email Address">
+                </div>
+                <div class="input" id="message">
+                    <span class="text">Your Message:</span>
+                    <input type="text" class="message" placeholder="Enter your Message">
+                </div>
+            </div>    
+            <input type="submit" value="Submit" class="btn">
+        </form>
+    </section>
+
+    
+</body>
+
+</html>
